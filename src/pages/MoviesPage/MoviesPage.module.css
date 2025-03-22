@@ -1,0 +1,25 @@
+.searchbox {
+  display: flex;
+  flex-direction: column; /* Вирівнюємо вміст вертикально */
+  align-items: center; /* Центруємо по горизонталі */
+}
+
+.searchBoxField {
+  width: 100%;
+  max-width: 400px; /* Обмежуємо ширину інпуту */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.searchBoxField:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.searchbox div {
+  margin-top: 10px; /* Відступ між інпутом та результатами пошуку */
+  text-align: center; /* Вирівнюємо текст всередині контейнера */
+}
